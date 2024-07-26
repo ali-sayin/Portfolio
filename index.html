@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portfolio Website Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-----MENU SECTION------>
+    <div class="main-panel">
+        <div class="container">
+            <div class="width-33 logo">
+                Port <span class="span-col">folio</span>
+            </div>
+            <div class="width-66">
+                <nav>
+                    <a href="#">
+                        <span class="span-col">Home</span>
+                    </a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+        </div>
+        <!------MAIN BANNERR------>
+        <div class="container ">
+            <div class="width-50">
+                <div class="banner-section">
+                    <h1>
+                        Welcome to <span class="span-col">my portfolio page</span>
+                    </h1>
+                    <h2>- I am an excited and novice software developer. I will share with you the work I have done here.</h2>
+                    
+                    <a href="#">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="width-50">
+                <img src="images/about-us.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!------PORTFOLIO SECTION------>
+    <div class="main-section">
+        <div class="container">
+            <h2 class="heading-text">My Portfolio</h2>
+            <div class="gallery">
+                <div class="width-33">
+                    <img src="images/p1.jpg">
+                </div>
+                <div class="width-33">
+                    <img src="images/p2.jpg">
+                </div>
+                <div class="width-33">
+                    <img src="images/p3.jpg">
+                </div>
+                <div class="width-33">
+                    <img src="images/p4.jpg">
+                </div>
+                <div class="width-33">
+                    <img src="images/p5.jpg">
+                </div>
+                <div class="width-33">
+                    <img src="images/p6.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------CONTACT US SECTION----------------------->
+    <div class="main-section contact bg-lightgrey">
+        <div class="container">
+            <h2 class="heading-text">Get In Touch</h2>
+            <div class="width-100">
+                <form id="contactForm" method="post">
+                    <input type="text" id="name" placeholder="Name...">
+                    <span id="nameError" class="error"></span>
+                    <input type="text" id="email" placeholder="Email...">
+                    <span id="emailError" class="error"></span>
+                    <input type="text" id="mobile" placeholder="Mobile No...">
+                    <span id="mobileError" class="error"></span>
+                    <textarea id="message" placeholder="Message..."></textarea>
+                    <span id="messageError" class="error"></span>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!------FOOTER SECTION------>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
